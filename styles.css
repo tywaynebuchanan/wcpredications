@@ -34,7 +34,7 @@ body{
     background-size: cover;
     /* background-position: center; */
   background-repeat: no-repeat;
-  width: 100%
+  max-width: 100%
 
   position: relative;
 }
@@ -113,4 +113,60 @@ thead th{
 
 tr td:nth-child(2){
     text-align: justify !important;
+}
+
+@media (max-width:480px){
+
+    section{
+        padding: 10px 10px 10px 10px !important;
+    }
+    table{
+        width:50% !important;
+    }
+
+    .text-container{
+        width: 500px;
+    }
+
+    .banner-content span{
+        font-size: 20px;
+    }
+
+    .banner-content{
+        display: none;
+        /* padding: 10px;
+        display: flex;
+        text-align: center;
+        /* justify-content: center;
+        align-items: center; */
+        /* flex-direction: column;
+        margin: 0 auto; */ */
+        
+    }
+
+    .banner-content h1{
+        font-size: 20px;
+    }
+
+    .banner{
+        background-image: var(--img-1);
+        /* background-size: 50%; */
+    }
+
+    .banner-content h1{
+        background: transparent;
+     
+    }
+    
+    .banner-content p{
+        background: transparent;
+        
+     
+    }
+    .banner-content span{
+        background: transparent;
+        text-align: center;
+        
+     
+    }
 }

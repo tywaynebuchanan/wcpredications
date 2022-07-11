@@ -151,6 +151,9 @@ tr td:nth-child(2){
     .banner{
         background-image: var(--img-1);
         /* background-size: 50%; */
+        background-size: contain;
+        height: 30vh;
+        padding: 10px;
     }
 
     .banner-content h1{

@@ -115,3 +115,12 @@ tr td:nth-child(2){
     text-align: justify !important;
 }
 
+.wr{
+    background-color: var(--yellow);
+    color: white;
+}
+
+.wr:hover{
+    background-color: var(--yellow) !important;
+    color: white !important;
+}
